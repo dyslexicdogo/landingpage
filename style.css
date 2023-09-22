@@ -1,0 +1,153 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .nav-color-block,
+  .first-color-block {
+    background-color: #1F2937;
+  }
+
+a img {
+    width: 200px;
+    padding: 20px;
+  }
+  
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .nav-links > li {
+    padding: 0 20px;
+  }
+  
+  header a {
+      text-decoration: none;
+      color: white;
+  }
+  
+  footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+    background-color: #1F2937;
+    color: white;
+  }
+  
+  .first-block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.first-block .box1, 
+.first-block .box2 {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.hero {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.description {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.signup{
+  display: inline-block;
+  padding: 5px;
+  margin-top: 10px;
+  width: 80px;
+  border-radius:5px;
+  background-color:#3882f6;
+  text-align: center; 
+  color: #e5e7eb;
+}
+
+.box2 img {
+  width: 400px;
+}
+
+.second-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.information {
+font-size: 36px;
+font-weight: extra-bold;
+text-align: center;
+margin: 20px;
+color: #1f2937;
+}
+
+.facilities {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.box {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box img {
+  width: 60px;
+}
+
+.facilities .text {
+  max-width: 100px;
+  word-wrap: break-word;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.third-color-block {
+  background-color: #e5e7eb;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.quote {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.author {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.bluebox {
+  background-color: #3882f6;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
